@@ -1,4 +1,4 @@
-const endpoint_url = 'http://srv4.pweb201.local/api';
+const endpoint_url = 'https://51018004.p-web.click/kota/api';
 
 document.addEventListener("DOMContentLoaded", function(){
   getKota();
