@@ -3,6 +3,7 @@ const endpoint_url = 'https://51018004.p-web.click/kota/api';
 document.addEventListener("DOMContentLoaded", function(){
   getKota();
 });
+
 function getKota() {
   fetch(endpoint_url + "/kota/kotadetail")
   .then(status)
